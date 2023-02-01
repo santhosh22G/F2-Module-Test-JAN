@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1 class="primary" class="heading">Dice Game</h1>
+  <div class="flex-container">
+    <img src="./images/img1.jpg" alt="registration" class="image selected" id="column1">
+    <img src="./images/img2.jpeg" alt="Signin" class="image" id="column2">
+    <img src="./images/img3.jpg" alt="dice" class="image" id="column3">
+    <img src="./images/img4.jpg" alt="congratulation" class="image" id="column4">
+  </div>
+  <div class="flex-containers">
+    <div class="subDiv hide">
+      <form action="" class="form hide">
+        <label for="name">Enter Your Name</label><br>
+        <input class="valid" type="text" placeholder="Full Name" id="name" required><br><br>
+        <label for="email">Enter Your Email</label><br>
+        <input class="valid" type="email" placeholder="Email" id="email" required><br><br>
+        <label for="username">Enter Username</label><br>
+        <input class="valid" type="text" placeholder="Username" id="username" required>
+        <br><br>
+        <input class="btn" type="submit">
+      </form>
+
+      <p class="firstinst hide bgimg"></p>
+      <p class="dicedet1 hide"></p>
+      <p class="dicedet2 hide"></p>
+      <p class="secondinst hide bgimg"></p>
+      <img src="./images/dice.jpg" style="height: 250px; width: 300px;" alt=" dice" class="dice hide">
+      <p class=" current hide rolling"></p>
+      <p class="total hide rolling"></p>
+      <p class="final hide "></p>
+      <p class="token"></p>
+      <img src="./images/congrats.jpg" alt=" congratulation" class="success hide">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
